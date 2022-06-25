@@ -658,6 +658,7 @@ a {
  .team-soc-icon {
    fill: #AFB1B8;
    transition: var(--transition);
+   transition-property: var(--main-white);;
  }
 
  /* Постоянные клиенты */
@@ -701,10 +702,12 @@ a {
    border: 1px solid #AFB1B8;
    border-radius: 4px;
    transition: var(--transition);
+   transition-property: border var(--transition);
 }
 
 .clients-icon {
    transition: var(--transition);
+   transition-property: var(--accent-color);
    fill: #AFB1B8;
    
 
@@ -746,6 +749,7 @@ a {
     color: var(--footer-contacts);
     margin-top: 9px;
     transition: var(--transition);
+    transition-property: var(--accent-color);
  }
 
  .footer-container {
@@ -902,7 +906,7 @@ a {
    display: flex;
    flex-direction: column;
    transition: var(--transition);
-   transition-property: box-shadow var(--transition), var(--accent-color);
+   transition-property: box-shadow var(--transition);
  }
 
  .portfolio-item:nth-child(3n) {
